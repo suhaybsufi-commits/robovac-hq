@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <nav class="nav"><div class="container"><a href="/">{% if site.title %}{{ site.title }}{% else %}RoboVac HQ{% endif %}</a> · <a href="/products.html">Catalog</a> · <a href="/top10.html">Best of 2025</a> · <a href="/guides.html">Guides</a></div></nav>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer class="footer"><div class="container">&copy; 2025 RoboVac HQ</div></footer>
+</body>
+</html>

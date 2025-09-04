@@ -1,0 +1,181 @@
+[
+  {
+    "id": "roomba-j7-j7150",
+    "brand": "iRobot",
+    "title": "Roomba j7+ (j7150)",
+    "short": "Excellent obstacle avoidance and solid self-emptying dock.",
+    "asin": "B09V3HN5Z6",
+    "price": {
+      "uk": 599.0,
+      "us": 649.0
+    },
+    "rating": 4.5,
+    "features": [
+      "Self-Empty",
+      "Pet Hair",
+      "No-Go Zones"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B09V3HN5Z6?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B09V3HN5Z6?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "roborock-s8-pro-ultra",
+    "brand": "Roborock",
+    "title": "Roborock S8 Pro Ultra",
+    "short": "Top-tier vacuum+mop with strong suction and auto-wash base.",
+    "asin": "B0B4XYZ123",
+    "price": {
+      "uk": 1199.0,
+      "us": 1299.0
+    },
+    "rating": 4.7,
+    "features": [
+      "Mop",
+      "Self-Empty",
+      "LiDAR",
+      "Auto-Lift Mop",
+      "Multi-Floor Mapping"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B0B4XYZ123?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B0B4XYZ123?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "deebot-t20-omni",
+    "brand": "Ecovacs",
+    "title": "DEEBOT T20 Omni",
+    "short": "Hybrid mop and vacuum with impressive mapping.",
+    "asin": "B0C2DEEB20",
+    "price": {
+      "uk": 899.0,
+      "us": 999.0
+    },
+    "rating": 4.6,
+    "features": [
+      "Mop",
+      "Self-Empty",
+      "LiDAR",
+      "Auto-Lift Mop"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B0C2DEEB20?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B0C2DEEB20?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "dreame-l20-ultra",
+    "brand": "Dreame",
+    "title": "Dreame L20 Ultra",
+    "short": "High suction and smart base for hands-off cleaning.",
+    "asin": "B0DREAME20",
+    "price": {
+      "uk": 1199.0,
+      "us": 1499.0
+    },
+    "rating": 4.6,
+    "features": [
+      "Mop",
+      "Self-Empty",
+      "LiDAR",
+      "Auto-Lift Mop"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B0DREAME20?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B0DREAME20?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "eufy-g40-hybrid",
+    "brand": "Eufy",
+    "title": "Eufy G40 Hybrid",
+    "short": "Good budget hybrid with quiet operation for hard floors.",
+    "asin": "B07EUFYG40",
+    "price": {
+      "uk": 299.0,
+      "us": 329.0
+    },
+    "rating": 4.3,
+    "features": [
+      "Mop",
+      "Low-Profile",
+      "Pet Hair"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B07EUFYG40?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B07EUFYG40?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "shark-ai-ultra-2-in-1",
+    "brand": "Shark",
+    "title": "Shark AI Ultra 2-in-1",
+    "short": "Solid mid-range for mixed-floor homes.",
+    "asin": "B08SHARKAI",
+    "price": {
+      "uk": 399.0,
+      "us": 449.0
+    },
+    "rating": 4.2,
+    "features": [
+      "Mop",
+      "Self-Empty",
+      "No-Go Zones",
+      "Pet Hair"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B08SHARKAI?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B08SHARKAI?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "yeedi-cube",
+    "brand": "Yeedi",
+    "title": "Yeedi Cube",
+    "short": "Compact base, strong mopping performance.",
+    "asin": "B0YEEDICUBE",
+    "price": {
+      "uk": 649.0,
+      "us": 699.0
+    },
+    "rating": 4.1,
+    "features": [
+      "Mop",
+      "Self-Empty"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B0YEEDICUBE?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B0YEEDICUBE?tag=tech4trends-20"
+    }
+  },
+  {
+    "id": "ilife-v3s-pro",
+    "brand": "iLife",
+    "title": "iLife V3s Pro",
+    "short": "Entry-level pet-hair vacuum for hard floors.",
+    "asin": "B00ILIFEV3S",
+    "price": {
+      "uk": 129.0,
+      "us": 159.0
+    },
+    "rating": 4.0,
+    "features": [
+      "Pet Hair",
+      "Low-Profile"
+    ],
+    "image": "/assets/img/placeholder.svg",
+    "links": {
+      "uk": "https://www.amazon.co.uk/dp/B00ILIFEV3S?tag=tech4trends-21",
+      "us": "https://www.amazon.com/dp/B00ILIFEV3S?tag=tech4trends-20"
+    }
+  }
+]

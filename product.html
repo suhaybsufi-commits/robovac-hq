@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="product">
+  <h1>{{ page.title }}</h1>
+  <p class="muted">{{ page.short }}</p>
+  <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width:360px;">
+  <p><strong>Price UK:</strong> £{{ page.price.uk }} · <strong>Price US:</strong> ${{ page.price.us }}</p>
+  <p><strong>Rating:</strong> {{ page.rating }} / 5</p>
+  <h2>Features</h2>
+  <ul>{% for f in page.features %}<li>{{ f }}</li>{% endfor %}</ul>
+  <p><a class="btn" href="{{ page.links.uk }}" rel="nofollow sponsored noopener" target="_blank">Check price (UK)</a> <a class="btn" href="{{ page.links.us }}" rel="nofollow sponsored noopener" target="_blank">Check price (US)</a></p>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ page.title }}",
+    "image": "{{ page.image }}",
+    "description": "{{ page.short }}",
+    "sku": "{{ page.asin }}",
+    "brand": {"@type":"Brand","name":"{{ page.brand }}"},
+    "offers": {
+      "@type":"AggregateOffer",
+      "lowPrice": "{{ page.price.uk }}",
+      "priceCurrency": "GBP",
+      "offers": [
+        {"@type":"Offer","price":"{{ page.price.uk }}","priceCurrency":"GBP","url":"{{ page.links.uk }}"},
+        {"@type":"Offer","price":"{{ page.price.us }}","priceCurrency":"USD","url":"{{ page.links.us }}"}
+      ]
+    }
+  }
+  </script>
+</article>
